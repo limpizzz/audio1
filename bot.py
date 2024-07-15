@@ -1,6 +1,6 @@
 import telebot
 from speechkit import text_to_speech
-bot = telebot.TeleBot("7155252450:AAHX6ggkZEYLIC4hVF1bhiVgzvKundlycK0")
+bot = telebot.TeleBot(" ")
 MAX_SYMB = 500
 @bot.message_handler(commands=['start'])
 def start_message(message):
